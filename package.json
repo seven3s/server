@@ -1,0 +1,19 @@
+{
+  "name": "webserver",
+  "version": "0.0.1",
+  "description": "简单web服务脚手架",
+  "main": "lib/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liubiao0810/server.git"
+  },
+  "author": "liubiao@itoxs.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liubiao0810/server/issues"
+  },
+  "homepage": "https://github.com/liubiao0810/server"
+}
