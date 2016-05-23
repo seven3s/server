@@ -17,7 +17,7 @@ npm install mz-server
 ```
 /**
  * @File:      测试webserver
- * @Author:    花夏(v_liubiao01@baidu.com)
+ * @Author:    花夏(liubiao@itoxs.com)
  * @Version:   V0.0.1
  * @Date:      2016-05-23 18:06:57
  */
