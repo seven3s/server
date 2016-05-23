@@ -4,14 +4,14 @@
 ####1.开始：
 >install
 
-```npm install server
+```
+npm install server
 ```
 >入口文件
 
 在项目更目录新建app.js
 
 ```
-
 /**
  * @File:      测试webserver
  * @Author:    花夏(v_liubiao01@baidu.com)
