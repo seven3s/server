@@ -28,3 +28,10 @@ var static_dir = './web/';
 // 创建静态服务，不用关注端口，系统会自己分配，默认8888
 app.createServer(static_dir);
 ```
+>启动
+
+```
+进入项目主目录
+node app.js
+
+```
