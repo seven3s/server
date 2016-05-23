@@ -8,7 +8,7 @@
 >install
 
 ```
-npm install mz-server
+npm install lg-server
 ```
 >入口文件
 
