@@ -1,7 +1,7 @@
 {
-  "name": "webserver",
+  "name": "lg-server",
   "version": "0.0.1",
-  "description": "简单web服务",
+  "description": "简单web服务,陵光(前朱雀)静态文件服务",
   "main": "./lib/server.js",
   "scripts": {
     "start": "node lib/server.js",

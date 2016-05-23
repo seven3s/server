@@ -1,11 +1,14 @@
 # server
-简单web服务脚手架
+简单web服务；
+起名：
+
+前朱雀为陵光,后玄武为执名,左青龙为孟章,右白虎为咸池
 
 ####1.开始：
 >install
 
 ```
-npm install server
+npm install mz-server
 ```
 >入口文件
 
