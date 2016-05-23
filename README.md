@@ -23,7 +23,7 @@ npm install mz-server
  */
  
 // 引用静态服务
-var app = require('server');
+var app = require('lg-server');
 
 // 设置静态服务根目录，默认当前项目根目录
 var static_dir = './web/';
