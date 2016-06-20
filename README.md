@@ -1,4 +1,4 @@
-# server
+远程服务mock# server
 简单web服务；
 起名：
 
@@ -30,6 +30,9 @@ var static_dir = './web/';
 
 // 创建静态服务，不用关注端口，系统会自己分配，默认8888
 app.createServer(static_dir);
+如果需要本地mock或者远程服务mock  ajax请求可以这样：
+app.createServer(static_dir, cab);
+cab 为你处理 本地mock/远程服务mock  的回调函数
 ```
 >启动
 
