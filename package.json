@@ -1,6 +1,6 @@
 {
   "name": "lg-server",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "简单web服务,陵光(前朱雀)静态文件服务",
   "main": "./lib/server.js",
   "scripts": {
@@ -9,9 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/liubiao0810/server.git"
+    "url": "git+https://github.com/liubiao0810/server.git"
   },
-  "author": "liubiao@itoxs.com",
+  "author": {
+    "name": "liubiao@itoxs.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/liubiao0810/server/issues"
@@ -22,5 +24,11 @@
     "mime": "^1.3.4",
     "serve-static": "^1.10.2",
     "chalk": "^1.1.3"
-  }
+  },
+  "readme": "# server\n简单web服务；\n起名：\n\n前朱雀为陵光,后玄武为执名,左青龙为孟章,右白虎为咸池\n\n####1.开始：\n>install\n\n```\nnpm install lg-server\n```\n>入口文件\n\n在项目更目录新建app.js\n\n```\n/**\n * @File:      测试webserver\n * @Author:    花夏(liubiao@itoxs.com)\n * @Version:   V0.0.1\n * @Date:      2016-05-23 18:06:57\n */\n \n// 引用静态服务\nvar app = require('lg-server');\n\n// 设置静态服务根目录，默认当前项目根目录\nvar static_dir = './web/';\n\n// 创建静态服务，不用关注端口，系统会自己分配，默认8888\napp.createServer(static_dir);\n```\n>启动\n\n```\n进入项目主目录\nnode app.js\n\n```",
+  "readmeFilename": "README.md",
+  "gitHead": "1cd766c8e2378da096069b234e7d80cbcf049fb2",
+  "_id": "lg-server@1.1.3",
+  "_shasum": "298ecb0c76627ab4329159b7cb298f2377a886ff",
+  "_from": "lg-server@>=1.1.3 <2.0.0"
 }
